@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Page</title>
+
+  <style>
+    /* ===== Reset ===== */
+    *{margin:0;padding:0;box-sizing:border-box;font-family:Arial;}
+
+    /* ===== Sticky Navbar ===== */
+    .navbar{
+      position:sticky;
+      top:0;
+      background:#111;
+      color:white;
+      padding:12px 20px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+    }
+    .navbar h2{font-size:20px;}
+    .navbar a{color:white;text-decoration:none;margin-left:15px;}
+
+    /* ===== Page Grid Layout ===== */
+    .container{
+      display:grid;
+      grid-template-columns:1fr 3fr;
+      gap:20px;
+      padding:20px;
+    }
+
+    /* Sidebar */
+    .sidebar{
+      background:#f3f3f3;
+      padding:15px;
+      border-radius:10px;
+      height:fit-content;
+    }
+
+    /* ===== Product Section ===== */
+    .products{
+      display:flex;
+      flex-wrap:wrap;
+      gap:20px;
+    }
+
+    /* Flexbox Product Cards */
+    .card{
+      width:220px;
+      background:white;
+      border:1px solid #ddd;
+      border-radius:10px;
+      padding:10px;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+    }
+    .card img{
+      width:100%;
+      border-radius:8px;
+    }
+    .card h3{margin:8px 0;}
+    .card button{
+      padding:6px 10px;
+      border:none;
+      background:#111;
+      color:white;
+      border-radius:6px;
+      cursor:pointer;
+    }
+
+    /* ===== Fixed Cart Icon ===== */
+    .cart{
+      position:fixed;
+      bottom:20px;
+      right:20px;
+      background:#111;
+      color:white;
+      padding:12px 14px;
+      border-radius:50%;
+      font-size:18px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Sticky Navbar -->
+  <div class="navbar">
+    <h2>MyStore</h2>
+    <div>
+      <a href="#">Home</a>
+      <a href="#">Products</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+
+  <!-- Grid Layout -->
+  <div class="container">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <h3>Filters</h3>
+      <p>Category</p>
+      <p>Price Range</p>
+    </div>
+
+    <!-- Product Section -->
+    <div class="products">
+      <div class="card">
+        <img src="https://picsum.photos/1200?random=1">
+        <h3>Product 1</h3>
+        <p>$20</p>
+        <button>Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <img src="https://picsum.photos/1200?random=2">
+        <h3>Product 2</h3>
+        <p>$25</p>
+        <button>Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <img src="https://picsum.photos/1200?random=3">
+        <h3>Product 3</h3>
+        <p>$30</p>
+        <button>Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <img src="https://picsum.photos/1200?random=4">
+        <h3>Product 4</h3>
+        <p>$35</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fixed Cart Icon -->
+  <div class="cart">🛒</div>
+
+</body>
+</html>

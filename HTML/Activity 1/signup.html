@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign Up</title>
+</head>
+<body>
+  <h2>Sign Up</h2>
+
+  <form onsubmit="signup(); return false;">
+    <input type="text" id="fname" placeholder="First Name" required><br><br>
+    <input type="text" id="lname" placeholder="Last Name" required><br><br>
+    <input type="email" id="email" placeholder="Email" required><br><br>
+    <input type="text" id="phone" placeholder="Phone Number" required><br><br>
+    <input type="text" id="photo" placeholder="Profile Photo URL"><br><br>
+
+    <button type="submit">Register</button>
+  </form>
+
+  <script>
+    function signup() {
+      const user = {
+        fname: document.getElementById("fname").value,
+        lname: document.getElementById("lname").value,
+        email: document.getElementById("email").value,
+        phone: document.getElementById("phone").value,
+        photo: document.getElementById("photo").value
+      };
+
+      localStorage.setItem("user", JSON.stringify(user));
+      alert("Registration Successful!");
+      window.location.href = "signin.html";
+    }
+  </script>
+</body>
+</html>

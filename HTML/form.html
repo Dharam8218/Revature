@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        Name: <input type="text"><br><br>
+        Email: <input type="email"><br><br>
+        Password: <input type="password"><br><br>
+        DOB: <input type="date"><br><br>
+        <input type="submit">
+    </form>
+
+
+    <audio controls src=""></audio>
+    <video controls height="300px" width="300px" src="MONGO.mp4"></video>
+
+    <table border="1px">
+        <tr>
+            <th>EmpID</th>
+            <th>EmpName</th>
+            <th>EmpAge</th>
+            <th>EmpSalary</th>
+        </tr>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>A</td>
+                <td>20</td>
+                <td>20000</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>A</td>
+                <td>20</td>
+                <td>20000</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>A</td>
+                <td>20</td>
+                <td>20000</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>A</td>
+                <td>20</td>
+                <td>20000</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <canvas id="box" width="200" height="100"></canvas>
+
+    <script>
+        var c = document.getElementById("box");
+        var ctx = c.getContext("2d");
+        ctx.fillStyle = "yellow";
+        ctx.fillRect(20, 20, 150, 60);
+    </script>
+
+    <canvas id="smileyCanvas" width="150" height="150"></canvas>
+    <script>
+        const canvas = document.getElementById('smileyCanvas');
+        const ctx = canvas.getContext('2d');
+
+        // Draw Face
+        ctx.beginPath();
+        ctx.arc(75, 75, 50, 0, Math.PI * 2, true); // Outer circle
+        ctx.fillStyle = "yellow";
+        ctx.fill();
+        ctx.stroke();
+
+        // Draw Eyes
+        ctx.beginPath();
+        ctx.arc(60, 65, 5, 0, Math.PI * 2, true); // Left eye
+        ctx.moveTo(95, 65);
+        ctx.arc(90, 65, 5, 0, Math.PI * 2, true); // Right eye
+        ctx.fillStyle = "black";
+        ctx.fill();
+
+        // Draw Mouth
+        ctx.beginPath();
+        ctx.arc(75, 75, 35, 0, Math.PI, false); // Half-circle mouth
+        ctx.stroke();
+
+    </script>
+
+    <p>Battery</p>
+    <meter value="0.6"></meter>
+
+
+
+
+
+    <p>Course Progress</p>
+    <progress value="80" max="100"></progress>
+
+    <p>Battery Level</p>
+    <meter value="0.6"></meter>
+    <p>Disk Usage</p>
+    <meter value="70" min="0" max="100" low="20" high="80" optimum="50"></meter>
+    <p>Server Load</p>
+    <meter value="0.9" min="0" max="1" low="0.4" high="0.8" optimum="0.6"></meter>
+    <p>Water Consumption</p>
+    <meter value="30" min="0" max="100" low="20" high="80" optimum="50"></meter>
+
+</body>
+
+</html>

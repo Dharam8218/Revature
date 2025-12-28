@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign In</title>
+</head>
+<body>
+  <h2>Sign In</h2>
+
+  <form onsubmit="signin(); return false;">
+    <input type="email" id="email" placeholder="Enter Email" required><br><br>
+    <button type="submit">Login</button>
+  </form>
+
+  <script>
+    function signin() {
+      const user = JSON.parse(localStorage.getItem("user"));
+
+      if (user && user.email === document.getElementById("email").value) {
+        alert("Login Successful!");
+        window.location.href = "dashboard.html";
+      } else {
+        alert("User not found. Please sign up first.");
+      }
+    }
+  </script>
+</body>
+</html>

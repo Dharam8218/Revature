@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dharamveer Singh Resume</title>
+    <style>
+        /* General Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        .resume-container {
+            width: 100%;
+            max-width: 900px; /* Standard A4 width approx */
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            display: grid;
+            grid-template-columns: 2fr 4fr; /* Left column narrower than right */
+        }
+
+        /* Utility classes for layout */
+        .left-col {
+            padding: 30px;
+            background-color: #e6e6e6; /* Light grey background for the left column */
+        }
+
+        .right-col {
+            padding: 30px;
+        }
+
+        /* Typography and Headings */
+        h1 {
+            font-size: 24px;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            font-size: 18px;
+            color: #4a4a4a;
+            border-bottom: 2px solid #4a4a4a; /* Section line */
+            padding-bottom: 5px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        
+        h3 {
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        h4 {
+            font-size: 14px;
+            font-weight: normal;
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        p, ul {
+            font-size: 14px;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        /* Contact Info Styling */
+        .contact-info p {
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+        }
+
+        .contact-info p::before {
+            content: "⋄ "; /* Using a simple diamond or similar character */
+            margin-right: 10px;
+            font-weight: bold;
+            color: #4a4a4a;
+        }
+
+        .contact-info a {
+            color: inherit;
+            text-decoration: none;
+        }
+        
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* Project/Experience Item Styling */
+        .job-title, .project-title {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-top: 15px;
+        }
+
+        .job-title h3, .project-title h3 {
+            margin-top: 0;
+        }
+
+        .date-range {
+            font-size: 12px;
+            color: #666;
+        }
+
+        /* Image styling */
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; /* Makes the image circular */
+            display: block;
+            margin: 0 auto 20px auto; /* Centers the image */
+            object-fit: cover; /* Ensures the image covers the area without distortion */
+        }
+
+        /* Responsive adjustments */
+        @media screen and (max-width: 768px) {
+            .resume-container {
+                grid-template-columns: 1fr; /* Stack columns on small screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <div class="left-col">
+            <!-- Profile Picture (Placeholder) -->
+            <img src="ProfilePic.jpg" alt="Dharamveer Singh" class="profile-pic">
+            
+            <h1>DHARAMVEER SINGH</h1>
+            <p style="margin-bottom: 20px;">Electronics Engineering Graduate</p>
+
+            <!-- Contact Section -->
+            <div class="contact-info">
+                <p>+91 8218286897</p>
+                <p>Noida, Uttar Pradesh</p>
+                <p><a href="mailto:dharamveersinghgtb@gmail.com">dharamveersinghgtb@gmail.com</a></p>
+                <p><a href="#">LinkedIn</a></p>
+            </div>
+
+            <!-- Skills Section -->
+            <h2>SKILLS</h2>
+            <p><strong>Programming Language:</strong> Core Java (OOPs, Exception Handling, String Handling, Multithreading, Collection)</p>
+            <p><strong>Technologies:</strong> JDBC, HTML, CSS</p>
+            <p><strong>Framework:</strong> Spring, Springboot, JPA, Hibernate, Microservices</p>
+            <p><strong>Query Language/Tool:</strong> SQL, Oracle 10g, MySQL, Apache Tomcat 9.0, Git, Postman, Jmeter</p>
+            
+            <!-- Education Section -->
+            <h2>EDUCATION</h2>
+            <div class="education-item">
+                <div class="job-title">
+                    <h3>Bachelor of Technology</h3>
+                    <span class="date-range">2020 - 2024</span>
+                </div>
+                <h4>Dr. A. P. J. Abdul kalam Technical University, Lucknow</h4>
+                <p>Electronics Engineering - 7.9 CGPA</p>
+            </div>
+            
+            <div class="education-item" style="margin-top: 15px;">
+                <div class="job-title">
+                    <h3>Intermediate</h3>
+                    <span class="date-range">2018 - 2019</span>
+                </div>
+                <h4>GTB Public School Noorpur Chandpur Bijnor</h4>
+                <p>PCM - 85.00%</p>
+            </div>
+
+        </div>
+
+        <div class="right-col">
+            <!-- Experience Section -->
+            <h2>EXPERIENCE</h2>
+            <div class="experience-item">
+                <div class="job-title">
+                    <h3>Backend Intern (Mobius by Gaian Hyderabad)</h3>
+                    <span class="date-range">June 2025 - Sep 2025</span>
+                </div>
+                <ul>
+                    <li>Contributed to backend development by enhancing features and integrating new functionalities in existing Java Spring Boot applications.</li>
+                    <li>Tested, debugged, and optimized REST APIs, identifying and resolving issues to improve performance and reliability.</li>
+                    <li>Developed scripts and automation solutions to streamline back-end processes and support efficient deployments.</li>
+                </ul>
+            </div>
+
+            <!-- Projects Section -->
+            <h2>PROJECTS</h2>
+            <div class="project-item">
+                <div class="project-title">
+                    <h3>Online FIR System</h3>
+                    <span class="date-range"><a href="#">Github</a></span>
+                </div>
+                <h4>(Java, Spring Boot, Thymeleaf, HTML, CSS, JavaScript, Bootstrap)</h4>
+                <ul>
+                    <li>Developed a user-friendly “Online FIR System,” increasing crime reporting by 40% and enhancing public safety awareness.</li>
+                    <li>Designed role-based access for Normal Users, Officers, and Admins, improving system efficiency by 40% in managing incident reports.</li>
+                    <li>Integrated secure authentication, real-time status updates with SMS/email notifications, and file upload functionality for evidence submission.</li>
+                </ul>
+            </div>
+
+            <div class="project-item">
+                <div class="project-title">
+                    <h3>Basic Quiz Application</h3>
+                    <span class="date-range"><a href="#">Link</a></span>
+                </div>
+                <h4>(JavaScript, HTML, CSS)</h4>
+                <ul>
+                    <li>Developed an interactive web-based quiz application with multiple categories, enhancing user engagement and knowledge testing.</li>
+                    <li>Implemented dynamic question handling and real-time score calculation for an improved user experience.</li>
+                    <li>Designed a responsive and intuitive user interface to ensure seamless navigation between devices.</li>
+                </ul>
+            </div>
+
+            <!-- Apprenticeship Section -->
+            <h2>APPRENTICESHIP</h2>
+            <ul>
+                <li>Completed 150+ hours of technical training on Java, DSA, and back-end development.</li>
+                <li>Solved 500+ coding questions on the AccioJob platform to strengthen problem solving and algorithmic thinking.</li>
+            </ul>
+
+            <!-- Certificates Section -->
+            <h2>CERTIFICATES</h2>
+            <ul>
+                <li>Programming in Java (NPTEL)</li>
+                <li>Developing Soft Skills and Personality (NPTEL)</li>
+            </ul>
+
+            <!-- Achievements Section -->
+            <h2>ACHIEVEMENTS</h2>
+            <ul>
+                <li>Secured a global rank of 2792 in TCS Codevita</li>
+                <li>Attained an 85% Silver Badge in NPTEL’s Programming in Java course from IIT Kharagpur</li>
+            </ul>
+
+        </div>
+    </div>
+</body>
+</html>
