@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>New Year Greeting Card</title>
+
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .card {
+      background: white;
+      color: #333;
+      border-radius: 16px;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+      width: 100%;          /* mobile default */
+      max-width: 350px;     /* avoid too large on big screens */
+      margin: 10px;
+    }
+
+    .title {
+      font-size: 26px;
+      font-weight: bold;
+    }
+
+    .year {
+      font-size: 40px;
+      font-weight: 900;
+      color: #ff9800;
+      margin: 10px 0;
+    }
+
+    .message {
+      font-size: 16px;
+      margin-top: 10px;
+    }
+
+    .footer {
+      margin-top: 16px;
+      font-size: 14px;
+      color: #777;
+    }
+
+    /* Tablet */
+    @media (min-width: 768px) {
+      .card {
+        width: 60%;
+      }
+    }
+
+    /* Desktop */
+    @media (min-width: 1024px) {
+      .card {
+        width: 40%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <div class="title">✨ Happy New Year ✨</div>
+
+    <div class="year">2026</div>
+
+    <div class="message">
+      Wishing you peace, success, and happiness.
+      <br>
+      May all your dreams come true in the coming year.
+    </div>
+
+    <div class="footer">
+      — From Dharamveer 😊
+    </div>
+  </div>
+
+</body>
+</html>
