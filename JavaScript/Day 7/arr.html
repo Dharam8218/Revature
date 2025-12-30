@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Array Input Example</title>
+</head>
+<body>
+
+<h3>Enter values and add to list</h3>
+
+<input id="itemInput" type="text" placeholder="Enter value">
+<button onclick="addItem()">Add</button>
+
+<h4>List Output:</h4>
+<ul id="list"></ul>
+
+<script>
+  const arr = [];   // array to store values
+
+  function addItem() {
+    const value = document.getElementById("itemInput").value;
+
+    if (value === "") return;   // ignore empty input
+
+    arr.push(value);            // store in array
+    document.getElementById("itemInput").value = ""; // clear input
+
+    displayList();
+  }
+
+  function displayList() {
+    const list = document.getElementById("list");
+    list.innerHTML = "";  // clear old list
+
+    arr.forEach(item => {
+      const li = document.createElement("li");
+      li.textContent = item;
+      list.appendChild(li);
+    });
+  }
+</script>
+
+</body>
+</html>
