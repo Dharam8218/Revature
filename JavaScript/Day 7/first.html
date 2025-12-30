@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        
+        function fucn() {
+            const name = document.getElementById("name");
+            const email = document.getElementById("email");
+            console.log(name.value + " " + email.value);
+
+        }
+
+        function add(){
+            console.log(parseInt(document.getElementById("a").value) + parseInt(document.getElementById("b").value));
+        }
+
+
+    </script>
+
+    <input type="text" id="name" placeholder="Enter your name here">
+    <input type="email" id="email" placeholder="Enter your email">
+    <input type="number" id="a" placeholder="Enter first number">
+    <input type="number" id="b" placeholder="Enter second number">
+
+    <button onclick="fucn()">Click here</button>
+    <button onclick="add()">Add</button>
+
+    <h1>Welcome to javascript!</h1>
+</body>
+
+</html>
