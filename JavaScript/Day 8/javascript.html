@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR1 Page</title>
+</head>
+
+<body>
+    <h1>Welcome to the AR1 Page</h1>
+    <p>This is a sample HTML page named javascript.html.</p>
+    <script>
+        let names = ["Mittal", "Jahanvi", "Nidhi", "Ankit", 3.4, true, 1999, null]
+
+        for (let i = 0; i < names.length; i++) {
+            console.log(names[i])
+        }
+        let fname = names[0]
+        console.log("First Name is: " + fname);
+        let lastelement = names[names.length - 1]
+        console.log("Last Element is: " + lastelement);
+        names.push("New Name")
+        console.log(names);
+        names.pop()
+        console.log(names);
+        names.shift()
+        console.log(names);
+        names.unshift("First Name")
+        console.log(names);
+        let part = names.slice(2, 5)
+        console.log("Sliced part is: " + part);
+
+
+        let fruits = ["A", "B", "C", "D"];
+        let spliceData = fruits.splice(1, 3, names);
+        console.log(spliceData);
+        console.log(fruits);
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="number" id="first" placeholder="Enter first number"><br>
+    <input type="number" id="second" placeholder="Enter second number"><br>
+    <input type="number" id="third" placeholder="Enter third number"><br>
+    <input type="number" id="fourth" placeholder="Enter fourth number"><br>
+    <input type="number" id="fifth" placeholder="Enter fifth number"><br>
+    <button onclick="func()">Click here</button>
+    <div id="result"></div>
+
+    <script>
+        function func() {
+            const a = parseInt(document.getElementById("first").value);
+            const b = parseInt(document.getElementById("second").value);
+            const c = parseInt(document.getElementById("third").value);
+            const d = parseInt(document.getElementById("fourth").value);
+            const e = parseInt(document.getElementById("fifth").value);
+
+            const arr = [a, b, c, d, e];
+
+            arr.forEach(i => console.log(i));
+
+            const newArr = arr.map(i => i * 2);
+            console.log("Mapped Array: " + newArr);
+
+            const filterArr = arr.filter(i => i % 2 === 0);
+            console.log("Filter Array: " + filterArr);
+
+            const sum = arr.reduce((total, i) => total + i, 0);
+            console.log("Sum of array: " + sum);
+
+            const max = arr.reduce((a, b) => a > b ? a : b);
+            console.log("Maximum of array is: " + max);
+
+
+            const output = `
+                 Original Array: ${arr}<br>
+                 Mapped Array (x2): ${newArr}<br>
+                 Even Numbers: ${filterArr}<br>
+                 Sum of Array: ${sum}<br>
+                 Maximum Value: ${max}
+                 `;
+
+            document.getElementById("result").innerHTML = output;
+
+
+        }
+
+    </script>
+</body>
+
+</html>

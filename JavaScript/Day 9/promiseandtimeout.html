@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        console.log("Start");
+        setTimeout(() => {
+            console.log("...Timeout...");
+        }, 0);
+        Promise.resolve().then(() => {
+            console.log("Inside Promise");
+        });
+
+
+
+        Promise.resolve().then(() => {
+            console.log("Promise 1");
+            Promise.resolve().then(() => {
+                console.log("Promise 2");
+            });
+        });
+
+
+
+        Promise.resolve().then(() => {
+            console.log("Promise 1");
+
+            setTimeout(() => {
+                console.log("Timeout");
+            }, 0);
+        })
+
+
+
+
+        console.log("Async behaviour in event loop");
+        async function test() {
+            console.log("First statement");
+            await Promise.resolve();
+            console.log("Second statement");
+        }
+        test();
+        console.log("Second statement");
+        console.log("Ended");
+    </script>
+</body>
+
+</html>

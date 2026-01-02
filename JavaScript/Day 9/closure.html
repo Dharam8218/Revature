@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Closures</title>
+</head>
+
+<body>
+    <script>
+        function outer(o1) {
+            let ctr = 0;
+            console.log("inside outer", ctr);
+
+            function inner(i1) {
+                ctr++;
+                console.log("inside inner", ctr);
+                return o1 * i1;
+            }
+            return inner;
+        }
+        const newvalue1 = outer(3);
+        console.log(newvalue1(2));
+
+    </script>
+</body>
+
+</html>
