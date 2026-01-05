@@ -1,0 +1,954 @@
+{
+    "sections": [
+        {
+            "sectionTitle": "General Knowledge",
+            "questions": [
+                {
+                    "questionType": "MCQ",
+                    "question": "Which planet is known as the 'Red Planet'?",
+                    "options": [
+                        "Venus",
+                        "Mars",
+                        "Jupiter",
+                        "Saturn"
+                    ],
+                    "answer": "Mars"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "What is the capital of Australia?",
+                    "options": [
+                        "Sydney",
+                        "Melbourne",
+                        "Canberra",
+                        "Brisbane"
+                    ],
+                    "answer": "Canberra"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "Who wrote the play Romeo and Juliet?",
+                    "options": [
+                        "William Wordsworth",
+                        "Charles Dickens",
+                        "William Shakespeare",
+                        "George Orwell"
+                    ],
+                    "answer": "William Shakespeare"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "What is the SI unit of electric current?",
+                    "options": [
+                        "Ampere",
+                        "Volt",
+                        "Ohm",
+                        "Watt"
+                    ],
+                    "answer": "Ampere"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "Which country is known as the Land of the Rising Sun?",
+                    "options": [
+                        "China",
+                        "Japan",
+                        "Thailand",
+                        "South Korea"
+                    ],
+                    "answer": "Japan"
+                },
+                {
+                    "questionType": "text",
+                    "question": "Name the largest ocean in the world.",
+                    "answer": "Pacific Ocean"
+                },
+                {
+                    "questionType": "number",
+                    "question": "In which year did India gain independence?",
+                    "answer": "1947"
+                },
+                {
+                    "questionType": "text",
+                    "question": "What is the chemical symbol for water?",
+                    "answer": "H2O"
+                },
+                {
+                    "questionType": "text",
+                    "question": "Who is known as the Father of the Indian Constitution?",
+                    "answer": "Dr. B.R. Ambedkar"
+                },
+                {
+                    "questionType": "number",
+                    "question": "How many bones are there in the human body?",
+                    "answer": "206"
+                }
+            ]
+        },
+        {
+            "sectionTitle": "Science",
+            "questions": [
+                {
+                    "questionType": "MCQ",
+                    "question": "What is the chemical symbol for sodium?",
+                    "options": [
+                        "Na",
+                        "S",
+                        "N",
+                        "So"
+                    ],
+                    "answer": "Na"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "What is the unit of force in physics?",
+                    "options": [
+                        "Newton",
+                        "Pascal",
+                        "Joule",
+                        "Watt"
+                    ],
+                    "answer": "Newton"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "Which organ in the human body is responsible for pumping blood?",
+                    "options": [
+                        "Brain",
+                        "Heart",
+                        "Lungs",
+                        "Kidney"
+                    ],
+                    "answer": "Heart"
+                },
+                {
+                    "questionType": "text",
+                    "question": "Name the gas most abundant in Earth's atmosphere.",
+                    "answer": "Nitrogen"
+                },
+                {
+                    "questionType": "number",
+                    "question": "What is the boiling point of water in Celsius?",
+                    "answer": "100"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "What is the study of plants called?",
+                    "options": [
+                        "Botany",
+                        "Zoology",
+                        "Geology",
+                        "Biology"
+                    ],
+                    "answer": "Botany"
+                },
+                {
+                    "questionType": "text",
+                    "question": "What is the formula of methane?",
+                    "answer": "CH4"
+                },
+                {
+                    "questionType": "text",
+                    "question": "Who proposed the laws of motion?",
+                    "answer": "Isaac Newton"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "What is the smallest particle of an element called?",
+                    "options": [
+                        "Molecule",
+                        "Atom",
+                        "Ion",
+                        "Compound"
+                    ],
+                    "answer": "Atom"
+                },
+                {
+                    "questionType": "text",
+                    "question": "Name the process by which plants make their food.",
+                    "answer": "Photosynthesis"
+                }
+            ]
+        },
+        {
+            "sectionTitle": "Mathematics",
+            "questions": [
+                {
+                    "questionType": "MCQ",
+                    "question": "What is the value of π (pi) approximately?",
+                    "options": [
+                        "3.14",
+                        "2.72",
+                        "1.62",
+                        "4.15"
+                    ],
+                    "answer": "3.14"
+                },
+                {
+                    "questionType": "number",
+                    "question": "What is the square root of 144?",
+                    "answer": "12"
+                },
+                {
+                    "questionType": "number",
+                    "question": "How many degrees are in a right angle?",
+                    "answer": "90"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "What is the formula for the area of a circle?",
+                    "options": [
+                        "πr²",
+                        "2πr",
+                        "πd",
+                        "r²"
+                    ],
+                    "answer": "πr²"
+                },
+                {
+                    "questionType": "number",
+                    "question": "What is the value of 7 x 8?",
+                    "answer": "56"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "Which is a prime number?",
+                    "options": [
+                        "15",
+                        "21",
+                        "19",
+                        "24"
+                    ],
+                    "answer": "19"
+                },
+                {
+                    "questionType": "number",
+                    "question": "Solve: 15 + (6 x 2).",
+                    "answer": "27"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "What is the sum of angles in a triangle?",
+                    "options": [
+                        "180°",
+                        "90°",
+                        "360°",
+                        "270°"
+                    ],
+                    "answer": "180°"
+                },
+                {
+                    "questionType": "number",
+                    "question": "What is 2 to the power of 5?",
+                    "answer": "32"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "What is the formula for the perimeter of a rectangle?",
+                    "options": [
+                        "2(l + b)",
+                        "l x b",
+                        "l² + b²",
+                        "2l x 2b"
+                    ],
+                    "answer": "2(l + b)"
+                }
+            ]
+        },
+        {
+            "sectionTitle": "Indian History",
+            "questions": [
+                {
+                    "questionType": "text",
+                    "question": "Who was the first Prime Minister of India?",
+                    "answer": "Jawaharlal Nehru"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "In which year did India gain independence?",
+                    "options": [
+                        "1947",
+                        "1950",
+                        "1945",
+                        "1930"
+                    ],
+                    "answer": "1947"
+                },
+                {
+                    "questionType": "text",
+                    "question": "Who is known as the Father of the Nation in India?",
+                    "answer": "Mahatma Gandhi"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "Which Indian King built the Taj Mahal?",
+                    "options": [
+                        "Akbar",
+                        "Shah Jahan",
+                        "Humayun",
+                        "Aurangzeb"
+                    ],
+                    "answer": "Shah Jahan"
+                },
+                {
+                    "questionType": "text",
+                    "question": "What is the name of the Indian national anthem?",
+                    "answer": "Jana Gana Mana"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "Who founded the Mauryan Empire?",
+                    "options": [
+                        "Ashoka",
+                        "Chandragupta Maurya",
+                        "Bindusara",
+                        "Harsha"
+                    ],
+                    "answer": "Chandragupta Maurya"
+                },
+                {
+                    "questionType": "text",
+                    "question": "Name the first woman Prime Minister of India.",
+                    "answer": "Indira Gandhi"
+                },
+                {
+                    "questionType": "text",
+                    "question": "Which movement was started by Mahatma Gandhi in 1942?",
+                    "answer": "Quit India Movement"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "Who was the last Governor-General of independent India?",
+                    "options": [
+                        "Lord Mountbatten",
+                        "C. Rajagopalachari",
+                        "Dr. Rajendra Prasad",
+                        "Sardar Patel"
+                    ],
+                    "answer": "C. Rajagopalachari"
+                },
+                {
+                    "questionType": "text",
+                    "question": "Name the battle in which Akbar defeated Hemu to become the ruler of India.",
+                    "answer": "Second Battle of Panipat"
+                }
+            ]
+        },
+        {
+            "sectionTitle": "Sports",
+            "questions": [
+                {
+                    "questionType": "MCQ",
+                    "question": "How many players are there in a standard cricket team?",
+                    "options": [
+                        "9",
+                        "10",
+                        "11",
+                        "12"
+                    ],
+                    "answer": "11"
+                },
+                {
+                    "questionType": "text",
+                    "question": "Who is known as the 'God of Cricket'?",
+                    "answer": "Sachin Tendulkar"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "What is the national sport of India?",
+                    "options": [
+                        "Cricket",
+                        "Field Hockey",
+                        "Kabaddi",
+                        "Badminton"
+                    ],
+                    "answer": "Field Hockey"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "In which year did India win its first Cricket World Cup?",
+                    "options": [
+                        "1975",
+                        "1983",
+                        "1996",
+                        "2003"
+                    ],
+                    "answer": "1983"
+                },
+                {
+                    "questionType": "text",
+                    "question": "Who holds the record for the most goals scored in international football?",
+                    "answer": "Cristiano Ronaldo"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "How many Olympic medals did India win in Tokyo 2020?",
+                    "options": [
+                        "5",
+                        "7",
+                        "9",
+                        "11"
+                    ],
+                    "answer": "7"
+                },
+                {
+                    "questionType": "text",
+                    "question": "Name the first Indian to win an individual Olympic gold medal.",
+                    "answer": "Abhinav Bindra"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "What is the distance of a marathon race?",
+                    "options": [
+                        "20 km",
+                        "26.2 km",
+                        "42.195 km",
+                        "50 km"
+                    ],
+                    "answer": "42.195 km"
+                },
+                {
+                    "questionType": "text",
+                    "question": "Which country has won the most FIFA World Cups?",
+                    "answer": "Brazil"
+                },
+                {
+                    "questionType": "text",
+                    "question": "Who was the first captain of the Indian cricket team?",
+                    "answer": "C.K. Nayudu"
+                }
+            ]
+        },
+        {
+            "sectionTitle": "Geography",
+            "questions": [
+                {
+                    "questionType": "MCQ",
+                    "question": "Which is the largest continent in the world?",
+                    "options": [
+                        "Africa",
+                        "Asia",
+                        "Europe",
+                        "North America"
+                    ],
+                    "answer": "Asia"
+                },
+                {
+                    "questionType": "text",
+                    "question": "What is the capital of Canada?",
+                    "answer": "Ottawa"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "Which river is the longest in the world?",
+                    "options": [
+                        "Amazon",
+                        "Nile",
+                        "Yangtze",
+                        "Mississippi"
+                    ],
+                    "answer": "Nile"
+                },
+                {
+                    "questionType": "text",
+                    "question": "What is the name of the tallest mountain in the world?",
+                    "answer": "Mount Everest"
+                },
+                {
+                    "questionType": "text",
+                    "question": "Which is the largest desert in the world?",
+                    "answer": "Sahara Desert"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "What is the smallest country in the world?",
+                    "options": [
+                        "Monaco",
+                        "Maldives",
+                        "Vatican City",
+                        "Liechtenstein"
+                    ],
+                    "answer": "Vatican City"
+                },
+                {
+                    "questionType": "text",
+                    "question": "Name the ocean surrounding the Maldives.",
+                    "answer": "Indian Ocean"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "Which country is known as the 'Land of the Midnight Sun'?",
+                    "options": [
+                        "Norway",
+                        "Sweden",
+                        "Finland",
+                        "Denmark"
+                    ],
+                    "answer": "Norway"
+                },
+                {
+                    "questionType": "text",
+                    "question": "Name the country where the Great Barrier Reef is located.",
+                    "answer": "Australia"
+                },
+                {
+                    "questionType": "text",
+                    "question": "Which is the largest freshwater lake in the world by area?",
+                    "answer": "Lake Superior"
+                }
+            ]
+        },
+        {
+            "sectionTitle": "English",
+            "questions": [
+                {
+                    "questionType": "MCQ",
+                    "question": "Which of the following is a synonym for 'happy'?",
+                    "options": [
+                        "Sad",
+                        "Elated",
+                        "Angry",
+                        "Bored"
+                    ],
+                    "answer": "Elated"
+                },
+                {
+                    "questionType": "text",
+                    "question": "What is the plural form of the word 'child'?",
+                    "answer": "Children"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "Which is the past tense of the verb 'run'?",
+                    "options": [
+                        "Running",
+                        "Ran",
+                        "Runs",
+                        "Run"
+                    ],
+                    "answer": "Ran"
+                },
+                {
+                    "questionType": "text",
+                    "question": "What is the opposite of the word 'dark'?",
+                    "answer": "Light"
+                },
+                {
+                    "questionType": "text",
+                    "question": "What is the noun form of the verb 'decide'?",
+                    "answer": "Decision"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "Which of these is an adjective?",
+                    "options": [
+                        "Quick",
+                        "Quickly",
+                        "Run",
+                        "Jump"
+                    ],
+                    "answer": "Quick"
+                },
+                {
+                    "questionType": "text",
+                    "question": "What is a group of lions called?",
+                    "answer": "Pride"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "What is the correct spelling?",
+                    "options": [
+                        "Receive",
+                        "Recieve",
+                        "Receeve",
+                        "Receiv"
+                    ],
+                    "answer": "Receive"
+                },
+                {
+                    "questionType": "text",
+                    "question": "How many vowels are there in the English alphabet?",
+                    "answer": "5"
+                },
+                {
+                    "questionType": "text",
+                    "question": "Who wrote the play 'Macbeth'?",
+                    "answer": "William Shakespeare"
+                }
+            ]
+        },
+        {
+            "sectionTitle": "Movies",
+            "questions": [
+                {
+                    "questionType": "MCQ",
+                    "question": "Which is the highest-grossing movie of all time?",
+                    "options": [
+                        "Avatar",
+                        "Avengers: Endgame",
+                        "Titanic",
+                        "Star Wars: The Force Awakens"
+                    ],
+                    "answer": "Avatar"
+                },
+                {
+                    "questionType": "text",
+                    "question": "Who played Iron Man in the Marvel Cinematic Universe?",
+                    "answer": "Robert Downey Jr."
+                },
+                {
+                    "questionType": "text",
+                    "question": "Which Indian movie won the first Oscar for Best Documentary?",
+                    "answer": "The Elephant Whisperers"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "Who directed the movie 'Inception'?",
+                    "options": [
+                        "Steven Spielberg",
+                        "Christopher Nolan",
+                        "James Cameron",
+                        "Quentin Tarantino"
+                    ],
+                    "answer": "Christopher Nolan"
+                },
+                {
+                    "questionType": "text",
+                    "question": "What is the name of the main character in the movie 'The Matrix'?",
+                    "answer": "Neo"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "Which Bollywood movie is based on the life of Milkha Singh?",
+                    "options": [
+                        "Bhaag Milkha Bhaag",
+                        "Dangal",
+                        "Chak De! India",
+                        "Mary Kom"
+                    ],
+                    "answer": "Bhaag Milkha Bhaag"
+                },
+                {
+                    "questionType": "text",
+                    "question": "Which movie features the song 'My Heart Will Go On'?",
+                    "answer": "Titanic"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "Who directed the movie 'Jurassic Park'?",
+                    "options": [
+                        "James Cameron",
+                        "Steven Spielberg",
+                        "Peter Jackson",
+                        "Ridley Scott"
+                    ],
+                    "answer": "Steven Spielberg"
+                },
+                {
+                    "questionType": "text",
+                    "question": "Name the first full-length animated movie ever released.",
+                    "answer": "Snow White and the Seven Dwarfs"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "Which movie is based on J.K. Rowling's book series?",
+                    "options": [
+                        "The Hobbit",
+                        "Twilight",
+                        "Harry Potter",
+                        "Percy Jackson"
+                    ],
+                    "answer": "Harry Potter"
+                }
+            ]
+        },
+        {
+            "sectionTitle": "Technology",
+            "questions": [
+                {
+                    "questionType": "MCQ",
+                    "question": "Who is known as the father of the computer?",
+                    "options": [
+                        "Charles Babbage",
+                        "Alan Turing",
+                        "Tim Berners-Lee",
+                        "Ada Lovelace"
+                    ],
+                    "answer": "Charles Babbage"
+                },
+                {
+                    "questionType": "text",
+                    "question": "What does 'HTTP' stand for?",
+                    "answer": "Hypertext Transfer Protocol"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "Which programming language is known as the 'mother of all languages'?",
+                    "options": [
+                        "C",
+                        "Python",
+                        "Java",
+                        "FORTRAN"
+                    ],
+                    "answer": "C"
+                },
+                {
+                    "questionType": "text",
+                    "question": "What is the full form of 'AI' in technology?",
+                    "answer": "Artificial Intelligence"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "Who founded Microsoft?",
+                    "options": [
+                        "Bill Gates and Paul Allen",
+                        "Steve Jobs",
+                        "Elon Musk",
+                        "Jeff Bezos"
+                    ],
+                    "answer": "Bill Gates and Paul Allen"
+                }
+            ]
+        },
+        {
+            "sectionTitle": "Art & Culture",
+            "questions": [
+                {
+                    "questionType": "text",
+                    "question": "Who painted the Mona Lisa?",
+                    "answer": "Leonardo da Vinci"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "Which country is famous for its origami art?",
+                    "options": [
+                        "China",
+                        "Japan",
+                        "India",
+                        "Korea"
+                    ],
+                    "answer": "Japan"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "What is the main theme of 'Kathak' dance?",
+                    "options": [
+                        "Storytelling",
+                        "Religious Rituals",
+                        "Harvest",
+                        "Battle"
+                    ],
+                    "answer": "Storytelling"
+                },
+                {
+                    "questionType": "text",
+                    "question": "Name one famous sculptor from the Renaissance period.",
+                    "answer": "Michelangelo"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "What is 'Tanjore painting' known for?",
+                    "options": [
+                        "Oil Paints",
+                        "Gold Foil Detailing",
+                        "Watercolors",
+                        "Abstract Art"
+                    ],
+                    "answer": "Gold Foil Detailing"
+                }
+            ]
+        },
+        {
+            "sectionTitle": "Space",
+            "questions": [
+                {
+                    "questionType": "MCQ",
+                    "question": "Which planet is the largest in our solar system?",
+                    "options": [
+                        "Earth",
+                        "Mars",
+                        "Jupiter",
+                        "Saturn"
+                    ],
+                    "answer": "Jupiter"
+                },
+                {
+                    "questionType": "text",
+                    "question": "What is the name of Earth's only natural satellite?",
+                    "answer": "Moon"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "Which organization is responsible for launching satellites in India?",
+                    "options": [
+                        "NASA",
+                        "ISRO",
+                        "ESA",
+                        "SpaceX"
+                    ],
+                    "answer": "ISRO"
+                },
+                {
+                    "questionType": "text",
+                    "question": "Who was the first man to walk on the moon?",
+                    "answer": "Neil Armstrong"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "What is the name of the first satellite sent to space?",
+                    "options": [
+                        "Sputnik 1",
+                        "Explorer 1",
+                        "Apollo 11",
+                        "Vostok 1"
+                    ],
+                    "answer": "Sputnik 1"
+                }
+            ]
+        },
+        {
+            "sectionTitle": "Health & Nutrition",
+            "questions": [
+                {
+                    "questionType": "text",
+                    "question": "What is the average normal body temperature in Celsius?",
+                    "answer": "37"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "Which vitamin is known as the 'Sunshine Vitamin'?",
+                    "options": [
+                        "Vitamin A",
+                        "Vitamin C",
+                        "Vitamin D",
+                        "Vitamin B12"
+                    ],
+                    "answer": "Vitamin D"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "Which organ in the human body detoxifies harmful substances?",
+                    "options": [
+                        "Heart",
+                        "Liver",
+                        "Kidneys",
+                        "Lungs"
+                    ],
+                    "answer": "Liver"
+                },
+                {
+                    "questionType": "text",
+                    "question": "What is the main nutrient in rice?",
+                    "answer": "Carbohydrates"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "Which mineral is important for strong bones and teeth?",
+                    "options": [
+                        "Iron",
+                        "Calcium",
+                        "Zinc",
+                        "Potassium"
+                    ],
+                    "answer": "Calcium"
+                }
+            ]
+        },
+        {
+            "sectionTitle": "Current Affairs",
+            "questions": [
+                {
+                    "questionType": "MCQ",
+                    "question": "Who is the current Prime Minister of India? (2025)",
+                    "options": [
+                        "Narendra Modi",
+                        "Rahul Gandhi",
+                        "Amit Shah",
+                        "Arvind Kejriwal"
+                    ],
+                    "answer": "Narendra Modi"
+                },
+                {
+                    "questionType": "text",
+                    "question": "Which country hosted the 2024 Olympics?",
+                    "answer": "France"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "Which country recently launched the Artemis Moon mission?",
+                    "options": [
+                        "China",
+                        "Russia",
+                        "India",
+                        "USA"
+                    ],
+                    "answer": "USA"
+                },
+                {
+                    "questionType": "text",
+                    "question": "Name the current President of the United States. (2025)",
+                    "answer": "Joe Biden"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "Which Indian city is known as the 'Silicon Valley of India'?",
+                    "options": [
+                        "Mumbai",
+                        "Bangalore",
+                        "Chennai",
+                        "Hyderabad"
+                    ],
+                    "answer": "Bangalore"
+                }
+            ]
+        },
+        {
+            "sectionTitle": "Environment",
+            "questions": [
+                {
+                    "questionType": "MCQ",
+                    "question": "Which is the largest rainforest in the world?",
+                    "options": [
+                        "Congo Rainforest",
+                        "Amazon Rainforest",
+                        "Sundarbans",
+                        "Daintree Rainforest"
+                    ],
+                    "answer": "Amazon Rainforest"
+                },
+                {
+                    "questionType": "text",
+                    "question": "What is the main cause of global warming?",
+                    "answer": "Greenhouse gases"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "Which gas is the most abundant in Earth’s atmosphere?",
+                    "options": [
+                        "Oxygen",
+                        "Carbon Dioxide",
+                        "Nitrogen",
+                        "Argon"
+                    ],
+                    "answer": "Nitrogen"
+                },
+                {
+                    "questionType": "text",
+                    "question": "What is the process called by which plants make their own food using sunlight?",
+                    "answer": "Photosynthesis"
+                },
+                {
+                    "questionType": "MCQ",
+                    "question": "What is the main source of energy for the Earth?",
+                    "options": [
+                        "Moon",
+                        "Wind",
+                        "Sun",
+                        "Coal"
+                    ],
+                    "answer": "Sun"
+                }
+            ]
+        }
+    ]
+}

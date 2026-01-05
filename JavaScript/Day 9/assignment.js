@@ -62,3 +62,80 @@ function login(user, callback) {
 }
 login("admin", (msg) => console.log(msg));
 console.log("<================================================>");
+
+
+function validate(user, callback) {
+  console.log("Validating user...");
+
+  setTimeout(() => {
+    if (user === "admin") {
+      console.log("User validated");
+      callback();
+    } else {
+      console.log("Invalid user");
+    }
+  }, 1000);
+}
+
+function processPayment(callback) {
+  console.log("Processing payment...");
+
+  setTimeout(() => {
+    console.log("Payment successful");
+    callback();
+  }, 1000);
+}
+
+function generateInvoice(callback) {
+  console.log("Generating invoice...");
+
+  setTimeout(() => {
+    console.log("Invoice generated");
+    callback();
+  }, 1000);
+}
+
+validate("admin", () => {
+  processPayment(() => {
+    generateInvoice(() => {
+      console.log("Done");
+    });
+  });
+});
+console.log("<================================================>");
+
+
+async function getData(url) {
+  const res = await fetch(url);
+  const data = await res.json();
+  console.log(data);
+}
+getData("https://jsonplaceholder.typicode.com/posts/1")
+console.log("<================================================>");
+
+document.addEventListener("DOMContentLoaded", () => {
+  const ul = document.querySelector("#list");
+  const li = document.createElement("li");
+
+  li.textContent = "New Item";
+  ul.appendChild(li);
+});
+console.log("<================================================>");
+
+document.addEventListener("DOMContentLoaded", () => {
+
+  const form = document.getElementById("userForm");
+  const msg = document.getElementById("error");
+
+  form.addEventListener("submit", e => {
+    const value = document.getElementById("name").value.trim();
+
+    if (value === "") {
+      e.preventDefault();  
+      msg.textContent = "Name is required";
+    } else {
+      msg.textContent = "";
+    }
+  });
+
+});
