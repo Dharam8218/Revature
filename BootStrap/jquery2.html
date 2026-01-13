@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery Demo</title>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <style>
+        .btn {
+            padding: 10px 20px;
+            background-color: blue;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <button class="btn">Multitask Button</button>
+
+    <script>
+        $(document).ready(function () {
+
+            $(".btn").on({
+                mouseenter: function () {
+                    $(this).css("background-color", "pink");
+                },
+                mouseleave: function () {
+                    $(this).css("background-color", "grey");
+                },
+                click: function () {
+                    alert("Button clicked!");
+                }
+            });
+
+        });
+    </script>
+
+</body>
+
+</html>

@@ -23,3 +23,12 @@ console.log(Array.isArray(max));
 
 const result = fetch('https://course.acciojob.com/').then(res => res.json()).catch((e)=>console.log(e));
 
+
+console.log((function(x){return x**2})(5));
+
+
+async function test() {
+  return "Hello";
+}
+console.log(test());
+
