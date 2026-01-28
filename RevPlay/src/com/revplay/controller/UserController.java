@@ -23,7 +23,7 @@ public class UserController {
     private List<Integer> songIds = new ArrayList<>();
     private List<Integer> playlistIds = new ArrayList<>();
 
-    private final UserService userService = new UserService();
+    public UserService userService = new UserService();
 
     private static final Logger logger =
             LogManager.getLogger(UserController.class);

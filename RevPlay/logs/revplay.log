@@ -41,3 +41,25 @@
 2026-01-28 15:34:44 INFO  com.revplay.controller.UserController - fetching public playlist by other user
 2026-01-28 15:34:47 INFO  com.revplay.controller.UserController - fetching songs in playlist
 2026-01-28 15:35:57 INFO  com.revplay.Main - closing RevPlay!
+2026-01-28 15:45:30 INFO  com.revplay.controller.UserController - starting user login
+2026-01-28 15:48:11 INFO  com.revplay.controller.UserController - starting user login
+2026-01-28 15:48:28 INFO  com.revplay.controller.UserController - starting user login
+2026-01-28 15:50:03 INFO  com.revplay.controller.UserController - starting user login
+2026-01-28 15:50:41 INFO  com.revplay.controller.UserController - starting user login
+2026-01-28 15:54:22 INFO  com.revplay.controller.UserController - starting user login
+2026-01-28 15:55:37 INFO  com.revplay.controller.UserController - starting user login
+2026-01-28 15:55:55 INFO  com.revplay.controller.UserController - starting user login
+2026-01-28 15:56:40 INFO  com.revplay.controller.UserController - starting user registration
+2026-01-28 15:56:49 INFO  com.revplay.controller.UserController - starting user login
+2026-01-28 15:58:43 INFO  com.revplay.controller.UserController - starting user login
+2026-01-28 15:58:43 INFO  com.revplay.controller.UserController - starting user registration
+2026-01-28 15:59:37 INFO  com.revplay.controller.UserController - starting user login
+2026-01-28 15:59:37 INFO  com.revplay.controller.UserController - starting user registration
+2026-01-28 15:59:48 INFO  com.revplay.Main - RevPlay started successfully
+2026-01-28 16:00:05 INFO  com.revplay.controller.ArtistController - started artist login
+2026-01-28 16:00:37 INFO  com.revplay.Main - RevPlay started successfully
+2026-01-28 16:01:02 INFO  com.revplay.controller.ArtistController - started artist login
+2026-01-28 16:01:10 INFO  com.revplay.controller.ArtistController - fetching all albums of artist
+2026-01-28 16:01:48 INFO  com.revplay.controller.ArtistController - fetching user who marked my song favourite
+2026-01-28 16:01:54 INFO  com.revplay.controller.ArtistController - fetching song statistics
+2026-01-28 16:01:57 INFO  com.revplay.controller.ArtistController - fetching all songs of artist
