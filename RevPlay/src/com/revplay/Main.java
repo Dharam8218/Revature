@@ -1,3 +1,4 @@
+package com.revplay;
 import com.revplay.controller.ArtistController;
 import com.revplay.controller.UserController;
 import com.revplay.model.Artist;
@@ -76,6 +77,7 @@ public class Main {
                     break;
                 case 0:
                     System.out.println("Thank you for using RevPlay!");
+                    logger.info("closing RevPlay!");
                     System.exit(0);
 
                 default:
@@ -288,7 +290,7 @@ public class Main {
     }
 
     private static void playlistMenu(UserController userController) throws SQLException {
-
+       logger.info("opening playlist manager");
         boolean inPlaylistMenu = true;
 
         while (inPlaylistMenu) {
@@ -316,7 +318,12 @@ public class Main {
                         scanner.nextInt();
                         break;
                     }
-                    playlistId = userController.viewPlayListSong(currentUserId);
+                    System.out.println("Enter playlist id to view songs in playlist or Enter 0 to go back");
+                    playlistId = scanner.nextInt();
+                    if(playlistId==0){
+                        break;
+                    }
+                    userController.viewPlayListSong(currentUserId, playlistId);
                     playSongFlowFomPlaylist(userController, playlistId);
                     break;
                 case 3:
@@ -326,7 +333,12 @@ public class Main {
                         scanner.nextInt();
                         break;
                     }
-                    userController.viewPlayListSong(currentUserId);
+                    System.out.println("Enter playlist id to view songs in playlist or Enter 0 to go back");
+                    playlistId = scanner.nextInt();
+                    if(playlistId==0){
+                        break;
+                    }
+                    userController.viewPlayListSong(currentUserId, playlistId);
                     playSongFlow(userController);
                     break;
                 case 4:

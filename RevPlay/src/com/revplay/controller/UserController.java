@@ -15,7 +15,7 @@ import java.util.Scanner;
 
 public class UserController {
 
-    static Scanner sc = new Scanner(System.in);
+    public static Scanner sc = new Scanner(System.in);
 
     private String email;
     private String password;
@@ -229,7 +229,6 @@ public class UserController {
     }
 
     public String getSongNameBySongId(int songId) throws SQLException {
-        logger.info("fetching song by song id");
         Song song = userService.getSongNameById(songId);
         return song.getTitle() != null ? song.getTitle() : "Null";
     }
@@ -280,11 +279,8 @@ public class UserController {
         return playlistIds;
     }
 
-    public int viewPlayListSong(int userId) throws SQLException {
+    public void viewPlayListSong(int userId, int playlistId) throws SQLException {
         System.out.println("*******************View Playlist Songs*********************");
-        System.out.println("Enter playlist id");
-        int playlistId = sc.nextInt();
-        sc.nextLine();
         List<Song> songs = userService.viewPlaylistSongs(userId, playlistId);
         songIds.clear();
         logger.info("fetching songs in playlist");
@@ -293,8 +289,6 @@ public class UserController {
             System.out.println(song.getSongId() + " " + song.getTitle());
         }
         if (songs.isEmpty()) System.out.println("No Songs here!");
-
-        return playlistId;
     }
 
 }

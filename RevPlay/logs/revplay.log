@@ -1,7 +1,43 @@
-2026-01-27 00:31:36 INFO  Main - Starting revplay
-2026-01-27 00:39:10 INFO  Main - RevPlay started successfully
-2026-01-28 14:27:15 INFO  Main - RevPlay started successfully
+2026-01-27 00:31:36 INFO  com.revplay.Main - Starting revplay
+2026-01-27 00:39:10 INFO  com.revplay.Main - RevPlay started successfully
+2026-01-28 14:27:15 INFO  com.revplay.Main - RevPlay started successfully
 2026-01-28 14:27:40 INFO  com.revplay.controller.UserController - starting user login
 2026-01-28 14:27:57 INFO  com.revplay.controller.UserController - fetching songs
 2026-01-28 14:28:06 INFO  com.revplay.controller.UserController - fetching favourite songs
 2026-01-28 14:28:21 INFO  com.revplay.controller.UserController - searching songs by genre
+2026-01-28 14:31:34 INFO  com.revplay.Main - RevPlay started successfully
+2026-01-28 14:31:39 INFO  com.revplay.Main - closing RevPlay!
+2026-01-28 14:43:57 INFO  com.revplay.Main - RevPlay started successfully
+2026-01-28 14:44:14 INFO  com.revplay.controller.UserController - starting user login
+2026-01-28 14:44:23 INFO  com.revplay.Main - closing RevPlay!
+2026-01-28 15:05:11 INFO  com.revplay.Main - RevPlay started successfully
+2026-01-28 15:05:26 INFO  com.revplay.controller.UserController - starting user login
+2026-01-28 15:05:30 INFO  com.revplay.controller.UserController - fetching songs
+2026-01-28 15:05:33 INFO  com.revplay.controller.UserController - playing song
+2026-01-28 15:05:33 INFO  com.revplay.controller.UserController - fetching song by song id
+2026-01-28 15:06:07 INFO  com.revplay.Main - closing RevPlay!
+2026-01-28 15:07:38 INFO  com.revplay.Main - RevPlay started successfully
+2026-01-28 15:07:51 INFO  com.revplay.controller.UserController - starting user login
+2026-01-28 15:07:54 INFO  com.revplay.controller.UserController - fetching songs
+2026-01-28 15:07:59 INFO  com.revplay.controller.UserController - playing song
+2026-01-28 15:13:27 INFO  com.revplay.controller.UserController - starting user registration
+2026-01-28 15:20:04 INFO  com.revplay.Main - RevPlay started successfully
+2026-01-28 15:20:45 INFO  com.revplay.controller.UserController - starting user registration
+2026-01-28 15:21:01 INFO  com.revplay.controller.UserController - starting user login
+2026-01-28 15:21:22 INFO  com.revplay.Main - RevPlay started successfully
+2026-01-28 15:21:34 INFO  com.revplay.controller.UserController - starting user login
+2026-01-28 15:21:38 INFO  com.revplay.controller.UserController - fetching favourite songs
+2026-01-28 15:22:08 INFO  com.revplay.Main - closing RevPlay!
+2026-01-28 15:23:03 INFO  com.revplay.Main - RevPlay started successfully
+2026-01-28 15:23:21 INFO  com.revplay.controller.UserController - starting user login
+2026-01-28 15:23:23 INFO  com.revplay.Main - opening playlist manager
+2026-01-28 15:23:32 INFO  com.revplay.controller.UserController - fetching all playlist
+2026-01-28 15:23:45 INFO  com.revplay.controller.UserController - fetching public playlist by other user
+2026-01-28 15:34:07 INFO  com.revplay.Main - RevPlay started successfully
+2026-01-28 15:34:21 INFO  com.revplay.controller.UserController - starting user login
+2026-01-28 15:34:26 INFO  com.revplay.Main - opening playlist manager
+2026-01-28 15:34:28 INFO  com.revplay.controller.UserController - fetching all playlist
+2026-01-28 15:34:31 INFO  com.revplay.controller.UserController - fetching public playlist by other user
+2026-01-28 15:34:44 INFO  com.revplay.controller.UserController - fetching public playlist by other user
+2026-01-28 15:34:47 INFO  com.revplay.controller.UserController - fetching songs in playlist
+2026-01-28 15:35:57 INFO  com.revplay.Main - closing RevPlay!
