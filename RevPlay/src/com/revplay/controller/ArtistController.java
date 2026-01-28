@@ -5,6 +5,8 @@ import com.revplay.model.Artist;
 import com.revplay.model.FavoriteInfo;
 import com.revplay.model.Song;
 import com.revplay.service.ArtistService;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.sql.SQLException;
 import java.text.SimpleDateFormat;
@@ -34,6 +36,9 @@ public class ArtistController {
     private Song song;
     private Album album;
 
+    private static final Logger logger =
+            LogManager.getLogger(ArtistController.class);
+
     private static List<Integer> currentAlbumIds = new ArrayList<>();
     private static List<Integer> currentPlaylistSongIds = new ArrayList<>();
 
@@ -57,7 +62,7 @@ public class ArtistController {
         twitter = sc.nextLine();
 
         artist = new Artist(name, email, password, bio, genre, instagram, twitter);
-
+        logger.info("started artist registration");
         String result = artistService.register(artist);
         System.out.println(result);
     }
@@ -68,6 +73,7 @@ public class ArtistController {
         email = sc.nextLine();
         System.out.println("Enter your password");
         password = sc.nextLine();
+        logger.info("started artist login");
         return artistService.login(email, password);
     }
 
@@ -87,6 +93,7 @@ public class ArtistController {
         releaseDate = sc.nextLine();
 
         song = new Song(artistId, albumId, title, genre, duration, releaseDate);
+        logger.info("started song uploading");
         String result = artistService.uploadSong(song);
         System.out.println(result);
     }
@@ -101,11 +108,13 @@ public class ArtistController {
         genre = sc.nextLine();
 
         album = new Album(artistId, albumName, releaseDate, genre);
+        logger.info("started creating album");
         String result = artistService.createAlbum(album);
         System.out.println(result);
     }
 
     public void getAllSongs(int artistId) throws SQLException {
+        logger.info("fetching all songs of artist");
         System.out.println("********************Get all songs*********************");
         List<Song> allSongs = artistService.getAllSongs(artistId);
         currentPlaylistSongIds.clear();
@@ -118,6 +127,7 @@ public class ArtistController {
     }
 
     public void getAllAlbums(int artistId) throws SQLException {
+        logger.info("fetching all albums of artist");
         System.out.println("********************Get all albums*********************");
         List<Album> allAlbums = artistService.getAllAlbums(artistId);
         currentAlbumIds.clear();
@@ -146,6 +156,7 @@ public class ArtistController {
         song.setTitle(title);
         song.setGenre(genre);
         song.setAlbumId(albumId);
+        logger.info("updating song details");
         String result = artistService.updateSongDetails(song);
         System.out.println(result);
     }
@@ -164,6 +175,7 @@ public class ArtistController {
         album.setAlbumId(albumId);
         album.setAlbumName(albumName);
         album.setGenre(genre);
+        logger.info("updating album details");
         String result = artistService.uploadAlbumDetails(album);
         System.out.println(result);
     }
@@ -172,6 +184,7 @@ public class ArtistController {
         System.out.println("********************Delete Song*********************");
         System.out.println("Enter song id which details you want to delete");
         songId = sc.nextInt();
+        logger.info("started deleting songs");
         String result = artistService.deleteSong(songId);
         System.out.println(result);
     }
@@ -180,11 +193,13 @@ public class ArtistController {
         System.out.println("********************Delete Album*********************");
         System.out.println("Enter album id which details you want to delete");
         albumId = sc.nextInt();
+        logger.info("started deleting album");
         String result = artistService.deleteAlbum(albumId);
         System.out.println(result);
     }
 
     public void viewSongStats(int artistId) throws SQLException {
+        logger.info("fetching song statistics");
         System.out.println("********************Song Statistics*********************");
         List<Song> songs = artistService.viewSongStats(artistId);
         System.out.printf("%-25s %-12s %s%n", "SONG_TITLE", "RELEASE_DATE", "PLAY_COUNT");
@@ -195,6 +210,7 @@ public class ArtistController {
     }
 
     public void viewUserWhoMarkedMySongFavourite(int artistId) throws SQLException {
+        logger.info("fetching user who marked my song favourite");
         List<FavoriteInfo> favoriteInfoList = artistService.viewUserWhoMarkedMySongFavourite(artistId);
         System.out.printf("%-8s %-20s %-25s %-20s%n", "USER_ID", "USER_NAME", "SONG_NAME", "FAVOURITE_AT");
         for (FavoriteInfo info : favoriteInfoList) {

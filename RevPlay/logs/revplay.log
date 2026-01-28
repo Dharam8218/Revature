@@ -1,0 +1,7 @@
+2026-01-27 00:31:36 INFO  Main - Starting revplay
+2026-01-27 00:39:10 INFO  Main - RevPlay started successfully
+2026-01-28 14:27:15 INFO  Main - RevPlay started successfully
+2026-01-28 14:27:40 INFO  com.revplay.controller.UserController - starting user login
+2026-01-28 14:27:57 INFO  com.revplay.controller.UserController - fetching songs
+2026-01-28 14:28:06 INFO  com.revplay.controller.UserController - fetching favourite songs
+2026-01-28 14:28:21 INFO  com.revplay.controller.UserController - searching songs by genre

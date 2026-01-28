@@ -2,6 +2,8 @@ import com.revplay.controller.ArtistController;
 import com.revplay.controller.UserController;
 import com.revplay.model.Artist;
 import com.revplay.model.User;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.sql.SQLException;
 import java.util.List;
@@ -20,11 +22,17 @@ public class Main {
     static int currentIndex;
     static int playlistId;
 
+    private static final Logger logger =
+            LogManager.getLogger(Main.class);
+
 
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
+
+        System.setProperty("log4j.configurationFile", "log4j2.xml");
+
         UserController userController = new UserController();
         ArtistController artistController = new ArtistController();
-
+        logger.info("RevPlay started successfully");
         while (true) {
             System.out.println("WELCOME TO REVPLAY");
             System.out.println("1. Register as User");
