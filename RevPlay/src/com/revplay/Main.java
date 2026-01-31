@@ -294,7 +294,7 @@ public class Main {
     }
 
     private static void playlistMenu(UserController userController) throws SQLException {
-       logger.info("opening playlist manager");
+        logger.info("opening playlist manager");
         boolean inPlaylistMenu = true;
 
         while (inPlaylistMenu) {
@@ -324,7 +324,7 @@ public class Main {
                     }
                     System.out.println("Enter playlist id to view songs in playlist or Enter 0 to go back");
                     playlistId = scanner.nextInt();
-                    if(playlistId==0){
+                    if (playlistId == 0) {
                         break;
                     }
                     userController.viewPlayListSong(currentUserId, playlistId);
@@ -339,7 +339,7 @@ public class Main {
                     }
                     System.out.println("Enter playlist id to view songs in playlist or Enter 0 to go back");
                     playlistId = scanner.nextInt();
-                    if(playlistId==0){
+                    if (playlistId == 0) {
                         break;
                     }
                     userController.viewPlayListSong(currentUserId, playlistId);

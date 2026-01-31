@@ -76,3 +76,31 @@
 2026-01-31 10:19:12 INFO  com.revplay.controller.UserController - finding user
 2026-01-31 10:19:22 INFO  com.revplay.controller.UserController - Reseting password
 2026-01-31 10:19:26 INFO  com.revplay.Main - closing RevPlay!
+2026-01-31 11:18:49 INFO  com.revplay.Main - RevPlay started successfully
+2026-01-31 11:18:56 INFO  com.revplay.Main - closing RevPlay!
+2026-01-31 12:16:10 INFO  com.revplay.Main - RevPlay started successfully
+2026-01-31 12:16:59 INFO  com.revplay.controller.UserController - starting user registration
+2026-01-31 12:17:31 INFO  com.revplay.controller.UserController - starting user login
+2026-01-31 12:17:54 INFO  com.revplay.controller.UserController - fetching songs
+2026-01-31 12:18:13 INFO  com.revplay.controller.UserController - playing song
+2026-01-31 12:18:31 INFO  com.revplay.controller.UserController - marking song favourite
+2026-01-31 12:18:41 INFO  com.revplay.controller.UserController - fetching all playlist
+2026-01-31 12:18:56 INFO  com.revplay.controller.UserController - adding to playlist
+2026-01-31 12:19:07 INFO  com.revplay.Main - opening playlist manager
+2026-01-31 12:19:29 INFO  com.revplay.controller.UserController - fetching all playlist
+2026-01-31 12:19:36 INFO  com.revplay.controller.UserController - deleting playlist
+2026-01-31 12:19:46 INFO  com.revplay.controller.UserController - fetching all playlist
+2026-01-31 12:19:59 INFO  com.revplay.controller.UserController - fetching recent played songs
+2026-01-31 12:20:09 INFO  com.revplay.controller.UserController - fetching listening history
+2026-01-31 12:21:08 INFO  com.revplay.controller.ArtistController - started artist registration
+2026-01-31 12:21:29 INFO  com.revplay.controller.ArtistController - started artist login
+2026-01-31 12:21:53 INFO  com.revplay.controller.ArtistController - fetching all albums of artist
+2026-01-31 12:22:21 INFO  com.revplay.controller.ArtistController - started song uploading
+2026-01-31 12:22:33 INFO  com.revplay.controller.ArtistController - fetching all songs of artist
+2026-01-31 12:22:47 INFO  com.revplay.controller.ArtistController - fetching user who marked my song favourite
+2026-01-31 12:22:59 INFO  com.revplay.controller.ArtistController - fetching all albums of artist
+2026-01-31 12:23:11 INFO  com.revplay.controller.ArtistController - fetching song statistics
+2026-01-31 12:23:40 INFO  com.revplay.controller.UserController - finding user
+2026-01-31 12:23:55 INFO  com.revplay.controller.UserController - finding user
+2026-01-31 12:24:27 INFO  com.revplay.controller.UserController - Reseting password
+2026-01-31 12:31:33 INFO  com.revplay.Main - closing RevPlay!
