@@ -8,6 +8,7 @@ import com.revplay.service.UserService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import javax.swing.plaf.synth.SynthTextAreaUI;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
@@ -289,6 +290,43 @@ public class UserController {
             System.out.println(song.getSongId() + " " + song.getTitle());
         }
         if (songs.isEmpty()) System.out.println("No Songs here!");
+    }
+
+    public User getUserByEmail(String email) throws SQLException {
+        return userService.getUserByEmail(email);
+    }
+
+    public void forgotPassword() throws SQLException {
+        System.out.println("*******************Forgot Password*********************");
+        System.out.println("Enter your email");
+        email = sc.nextLine();
+        logger.info("finding user");
+        User user = getUserByEmail(email);
+
+        if (user == null) {
+            System.out.println("No user found with this email: " + email);
+            return;
+        }
+        System.out.println("Hint: " + user.getSecurityAnswer());
+
+        String password;
+        String confirmPassword;
+        while (true) {
+            System.out.println("Enter new Password:");
+            password = sc.nextLine();
+
+            System.out.println("Re-enter Password:");
+            confirmPassword = sc.nextLine();
+
+            if (!password.equals(confirmPassword)) {
+                System.out.println("Passwords do not match. Please try again.");
+            } else {
+                break;
+            }
+        }
+        logger.info("Reseting password");
+        String result = userService.forgotPassword(email, password);
+        System.out.println(result);
     }
 
 }

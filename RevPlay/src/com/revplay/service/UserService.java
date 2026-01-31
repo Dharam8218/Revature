@@ -110,4 +110,13 @@ public class UserService {
     public List<Song> viewPlaylistSongs(int userId, int playlistId) throws SQLException {
         return userRepository.viewPlaylistSong(userId, playlistId);
     }
+
+    public User getUserByEmail(String email) throws SQLException {
+        return userRepository.getUserByEmail(email);
+    }
+
+    public String forgotPassword(String email, String password) throws SQLException {
+        boolean result = userRepository.forgotPassword(email, password);
+        return result ? "Password reset successfully" : "Some Error occurred";
+    }
 }

@@ -63,3 +63,16 @@
 2026-01-28 16:01:48 INFO  com.revplay.controller.ArtistController - fetching user who marked my song favourite
 2026-01-28 16:01:54 INFO  com.revplay.controller.ArtistController - fetching song statistics
 2026-01-28 16:01:57 INFO  com.revplay.controller.ArtistController - fetching all songs of artist
+2026-01-31 10:00:45 INFO  com.revplay.Main - RevPlay started successfully
+2026-01-31 10:01:41 INFO  com.revplay.Main - closing RevPlay!
+2026-01-31 10:03:48 INFO  com.revplay.Main - RevPlay started successfully
+2026-01-31 10:04:21 INFO  com.revplay.Main - closing RevPlay!
+2026-01-31 10:05:02 INFO  com.revplay.Main - RevPlay started successfully
+2026-01-31 10:05:30 INFO  com.revplay.Main - closing RevPlay!
+2026-01-31 10:16:57 INFO  com.revplay.Main - RevPlay started successfully
+2026-01-31 10:17:36 INFO  com.revplay.Main - closing RevPlay!
+2026-01-31 10:18:46 INFO  com.revplay.Main - RevPlay started successfully
+2026-01-31 10:18:57 INFO  com.revplay.controller.UserController - finding user
+2026-01-31 10:19:12 INFO  com.revplay.controller.UserController - finding user
+2026-01-31 10:19:22 INFO  com.revplay.controller.UserController - Reseting password
+2026-01-31 10:19:26 INFO  com.revplay.Main - closing RevPlay!

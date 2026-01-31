@@ -40,6 +40,7 @@ public class Main {
             System.out.println("2. Login as User");
             System.out.println("3. Register as Artist");
             System.out.println("4. Login as Artist");
+            System.out.println("5. Forgot Password");
             System.out.println("0. Exit");
 
             System.out.println("Enter option no: ");
@@ -74,6 +75,9 @@ public class Main {
                     } else {
                         System.out.println("Bad Credentials! Invalid Email or Password.");
                     }
+                    break;
+                case 5:
+                    userController.forgotPassword();
                     break;
                 case 0:
                     System.out.println("Thank you for using RevPlay!");

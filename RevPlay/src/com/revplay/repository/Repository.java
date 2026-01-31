@@ -76,6 +76,10 @@ public class Repository {
             "SELECT s.song_id,s.title FROM playlists p INNER JOIN playlist_songs ps ON p.playlist_id = ps.playlist_id INNER JOIN songs s ON ps.song_id = s.song_id WHERE (p.user_id = ? OR p.is_public = 1) AND p.playlist_id = ?";
     private static final String VIEW_USER =
             "SELECT u.user_id, u.name AS user_name,s.song_id,s.title AS song_name, f.favorited_at FROM favorites f JOIN songs s ON f.song_id = s.song_id JOIN user u  ON f.user_id = u.user_id WHERE s.artist_id = ? ORDER BY f.favorited_at DESC";
+    private static final String GET_USER_BY_EMAIL =
+            "SELECT * FROM user WHERE email = ?";
+    private static final String FORGOT_PASSWORD =
+            "UPDATE user SET password  = ? WHERE email = ?";
 
     private Connection conn;
     private PreparedStatement preparedStatement;
@@ -973,5 +977,53 @@ public class Repository {
         }
 
         return favoriteInfoList;
+    }
+
+    public User getUserByEmail(String email) throws SQLException {
+        User user = null;
+        try {
+            Class.forName(DRIVER);
+            conn = DriverManager.getConnection(URL, USER, PASSWORD);
+            preparedStatement = conn.prepareStatement(GET_USER_BY_EMAIL);
+            preparedStatement.setString(1, email);
+
+            resultSet = preparedStatement.executeQuery();
+
+            while (resultSet.next()) {
+                user = new User();
+                user.setSecurityAnswer(resultSet.getString("security_answer"));
+            }
+        } catch (SQLException | ClassNotFoundException e) {
+            System.out.println("No user found: " + e.getMessage());
+        } finally {
+            resultSet.close();
+            preparedStatement.close();
+            conn.close();
+        }
+
+        return user;
+    }
+
+    public boolean forgotPassword(String email, String password) throws SQLException {
+        boolean isUpdated = false;
+        try {
+            Class.forName(DRIVER);
+            conn = DriverManager.getConnection(URL, USER, PASSWORD);
+            preparedStatement = conn.prepareStatement(FORGOT_PASSWORD);
+            preparedStatement.setString(1, password);
+            preparedStatement.setString(2, email);
+
+            int rowUpdated = preparedStatement.executeUpdate();
+            isUpdated = rowUpdated > 0;
+
+
+        } catch (SQLException | ClassNotFoundException e) {
+            System.out.println("Error: " + e.getMessage());
+        } finally {
+            preparedStatement.close();
+            conn.close();
+        }
+
+        return isUpdated;
     }
 }
